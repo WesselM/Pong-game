@@ -1,4 +1,4 @@
 # Pong-game
 The pong game I have created contains music. \
-The python document is the code to run the Game. \
+The document called "Pong1.o.py" contains the game code. \
 The music file is for the background music.
