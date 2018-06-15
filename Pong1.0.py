@@ -45,7 +45,7 @@ class Ball:
     def move(self, delta_time, current_state):    
          # Movement speed & direction of the ball
         self.position_y += self.delta_y * delta_time * 4.1 
-        self.position_x += self.delta_x * delta_time * 5.09
+        self.position_x += self.delta_x * delta_time * 5.1
     
     def check_bounds(self):
          # bounce the ball of the screen edges
@@ -92,8 +92,8 @@ class Paddle:
         if self.position_y <= 0 + (self.rect_height/2):
             self.delta_position_y = 0
             self.position_y = 0 + (self.rect_height/2)
-
-
+             
+           
 class MyGame(arcade.Window):
     """ An Arcade game. """
 
