@@ -139,7 +139,7 @@ Press the space-bar to start"
         arcade.draw_text("GAME OVER! \nRed has won the game.", WINDOW_WIDTH/2, WINDOW_HEIGHT - ((WINDOW_HEIGHT - (WINDOW_HEIGHT/6 + 1))/2),arcade.color.REDWOOD, 30, width=WINDOW_WIDTH, align="center", anchor_x="center",anchor_y="center")     
         arcade.draw_text("Press the space-bar to play again", WINDOW_WIDTH/2, WINDOW_HEIGHT/2.5,arcade.color.REDWOOD, 15, width=WINDOW_WIDTH, align="center", anchor_x="center",anchor_y="center")     
     
-    def draw_game_over_red_wins(self):  # what to draw on the game over screen when blue wins
+    def draw_game_over_blue_wins(self):  # what to draw on the game over screen when blue wins
         arcade.draw_text("GAME OVER! \nBlue has won the game.", WINDOW_WIDTH/2, WINDOW_HEIGHT - ((WINDOW_HEIGHT - (WINDOW_HEIGHT/6 + 1))/2),arcade.color.CADET_BLUE, 30, width=WINDOW_WIDTH, align="center", anchor_x="center",anchor_y="center")     
         arcade.draw_text("Press the space-bar to play again", WINDOW_WIDTH/2, WINDOW_HEIGHT/2.5,arcade.color.CADET_BLUE, 15, width=WINDOW_WIDTH, align="center", anchor_x="center",anchor_y="center")     
 
@@ -168,7 +168,7 @@ Press the space-bar to start"
         elif self.current_state == GAME_OVER_RED_WINS:
             self.draw_game_over_red_wins()
         else:
-            self.draw_game_over_red_wins() 
+            self.draw_game_over_blue_wins() 
 
     def update(self, delta_time):
         """ Called to update our objects. Happens approximately 60 times per second. """
