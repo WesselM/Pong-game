@@ -1,6 +1,7 @@
 # Pong-game
-The pong game I have created contains music. \
-The document called "Pong1.0.py" contains the game code. \
-The music file is for the background music. \
-The code was written in Visual Studo Code. \
-Imports used: Arcade, Time.
+The pong game was written in Python code, using Visual Studio Code. \
+The imports used are: python Arcade and Time. \
+It contains background music, the music file is also uploaded.
+
+# School-project
+This was written for an assignment. It is the first game I build, don't mind the flaws.
